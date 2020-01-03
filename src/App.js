@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './sass/main.scss';
+import React from "react";
+import triangleLogo from './img/triangle-logo.png'
+import "./sass/main.scss";
 
-function App() {
-  return (
-    <div className="app">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  state = {}
+
+  render() {
+    return (
+      <div className="container">
+        <header className="header">
+          <img src={triangleLogo} alt="logo" className="logo" />
+          <form
+            action=""
+            typle="text"
+            className="search__input"
+            placeholder="Search hotels"
+          >
+            <button className="search__button">
+              {/* <svg className="search-icon">
+                <use xlink:href={sprite}></use>
+              </svg> */}
+
+            </button>
+
+
+          </form>
+        <div className="content">
+            <nav className="sidebar">navigation</nav>
+
+            <main className="hotel-view">Hotel view</main>
+          </div>
+        </header>
+      </div>
+    );
+  }
 }
 
-export default App;
+

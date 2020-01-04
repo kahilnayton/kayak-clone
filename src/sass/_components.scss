@@ -1,0 +1,102 @@
+// *************** logo *************
+.logo {
+  height: 5.25rem;
+  margin-left: 3rem;
+}
+
+// ****************** search *************
+.search {
+  // background-color: orangered;
+  flex: 0 0 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__input {
+    font-family: inherit; // doesn't automatically inherit the global font
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--color-grey-light);
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 100px;
+    width: 90%;
+    transition: all 0.2s;
+    margin-right: -3.5rem;
+
+    &:focus {
+      outline: none;
+      width: 100%;
+      background-color: var(--color-grey-light2);
+    }
+
+    &::-webkit-input-placeholder {
+      // only works in chrome and safari
+      font-weight: 100;
+      color: var(--color-grey-light2);
+    }
+  }
+
+  &__input:focus + &__button {
+  }
+
+  &__button {
+    border: none;
+    background-color: var(--color-grey-light2);
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: var(--color-grey-dark);
+    // background-color: transparent;
+  }
+}
+
+// ****************nav ****************
+.user-nav {
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+
+  & > * {
+    // user nav and all the direct children
+    padding: 0 2rem;
+    cursor: pointer;
+  }
+
+  & > *:hover {
+    background-color: var(--color-grey-light2);
+  }
+
+  &__icon-box {
+  }
+
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  &__notification {
+  }
+
+  &__user {
+  }
+
+  &__user-photo {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  &__user-name {
+  }
+}

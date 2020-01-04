@@ -8,6 +8,12 @@ import view1 from "./images/view1.jpeg";
 import view2 from "./images/view2.jpeg";
 import view3 from "./images/view3.jpeg";
 
+import user1 from './images/user1.jpeg'
+import user2 from './images/user2.jpeg'
+import user3 from './images/user3.jpeg'
+import user4 from './images/user4.jpeg'
+import user5 from './images/user5.jpeg'
+
 import PlaneIcon from "./Icons/Airplane";
 import Bookmark from "./Icons/Bookmark";
 import Map2 from "./Icons/Map2";
@@ -131,6 +137,65 @@ export default class App extends React.Component {
                 <div className="overview__rating-average">8.6</div>
                 <div className="overview__raiting-count">20 votes</div>
               </div>
+            </div>
+
+            <div className="detail">
+              <div className="description">
+                <p className="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reiciendis facere veritatis totam harum cupiditate officiis
+                  voluptate laborum amet quo quam!
+                </p>
+
+                <p className="paragraph">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Culpa nesciunt sint eos doloribus rem quod fugiat blanditiis
+                  expedita necessitatibus veritatis?
+                </p>
+
+                <ul className="list">
+                  <li className="list__item">Close to beach</li>
+                  <li className="list__item">Lots of good birds</li>
+                  <li className="list__item">Free Tele!</li>
+                  <li className="list__item">AC and Heating</li>
+                  <li className="list__item">English Speaking</li>
+                  <li className="list__item">Free Meals</li>
+                  <li className="list__item">Forest for days</li>
+                </ul>
+
+                <div className="recommend">
+                  <p className="recommend__count"></p>
+                  <div className="recommend__friends">
+                    <img
+                      src={user1}
+                      alt="Recommend friend user1"
+                      className="recommend__photo"
+                    />
+                    <img
+                      src={user2}
+                      alt="Recommend friend user2"
+                      className="recommend__photo"
+                    />
+                    <img
+                      src={user3}
+                      alt="Recommend friend user3"
+                      className="recommend__photo"
+                    />
+                    <img
+                      src={user4}
+                      alt="Recommend friend user4"
+                      className="recommend__photo"
+                    />
+                    <img
+                      src={user5}
+                      alt="Recommend friend user5"
+                      className="recommend__photo"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="user-reviews">user reviews</div>
             </div>
           </main>
         </div>

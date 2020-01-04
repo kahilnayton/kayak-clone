@@ -11,10 +11,18 @@
   --color-grey-dark: grey;
   --color-grey-dark2: rgb(150, 144, 144);
 
-  --shadow-dark: rgb(8, 5, 5);
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+  --shadow-dark: 0 2rem 5rem rgba(0,0,0,.06);
+
+  --line: 1px solid var(--color-grey-light2);
   
 }
 
+$bp-largest: 75em;
+$bp-large: 68.75em;
+$bp-medium: 56.25em;
+$bp-small: 37.3em;
+$bp-smallest: 31.25em;
 
 
 * {

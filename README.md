@@ -5,7 +5,8 @@ Front-end React.js project
 
 ![triangle-logo](https://user-images.githubusercontent.com/29616227/71782302-99d26300-2fa6-11ea-9c0b-e301a0e8bad2.png)
 
-![Screenshot 2020-01-04 17 29 06](https://user-images.githubusercontent.com/29616227/71774337-825d9080-2f3a-11ea-8aed-cfc6a5b1e2f6.jpg)
+![project](https://user-images.githubusercontent.com/29616227/71782363-24b35d80-2fa7-11ea-8993-edd0fb2ce299.jpg)
+
 
 ## Sneak peak
 

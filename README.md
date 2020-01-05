@@ -10,7 +10,7 @@ Front-end React.js project
 
 ## Sneak peak
 
-```
+```jsx
 <div className="user-nav__user">
               <img src={userImage} alt="" className="user-nav__user-photo" />
               <span className="user-nav__user-name">Kahil</span>

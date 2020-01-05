@@ -172,11 +172,6 @@ export default class App extends React.Component {
                       className="recommend__photo"
                     />
                     <img
-                      src={user2}
-                      alt="Recommend friend user2"
-                      className="recommend__photo"
-                    />
-                    <img
                       src={user3}
                       alt="Recommend friend user3"
                       className="recommend__photo"
@@ -184,6 +179,11 @@ export default class App extends React.Component {
                     <img
                       src={user4}
                       alt="Recommend friend user4"
+                      className="recommend__photo"
+                    />
+                    <img
+                      src={user2}
+                      alt="Recommend friend user2"
                       className="recommend__photo"
                     />
                     <img

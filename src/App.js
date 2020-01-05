@@ -188,11 +188,6 @@ export default class App extends React.Component {
                       alt="Recommend friend user2"
                       className="recommend__photo"
                     />
-                    {/* <img
-                      src={user5}
-                      alt="Recommend friend user5"
-                      className="recommend__photo"
-                    /> */}
                   </div>
                 </div>
               </div>
@@ -200,10 +195,15 @@ export default class App extends React.Component {
               <div className="user-reviews">
                 <figure className="review">
                   <blockquote className="review__text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum, enim!
                   </blockquote>
                   <figcaption className="review__user">
-                    <img src={user1} alt="pic of user1" className="review__photo" />
+                    <img
+                      src={user1}
+                      alt="pic of user1"
+                      className="review__photo"
+                    />
                     <div className="review__user-box">
                       <p className="review__user-name">Nick Pat</p>
                       <p className="review__user-date">Feb 10, 2019</p>
@@ -214,10 +214,15 @@ export default class App extends React.Component {
 
                 <figure className="review">
                   <blockquote className="review__text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum, enim!
                   </blockquote>
                   <figcaption className="review__user">
-                    <img src={user2} alt="pic of user1" className="review__photo" />
+                    <img
+                      src={user2}
+                      alt="pic of user1"
+                      className="review__photo"
+                    />
                     <div className="review__user-box">
                       <p className="review__user-name">Jane Dick</p>
                       <p className="review__user-date">Nov 11, 2018</p>
@@ -226,9 +231,21 @@ export default class App extends React.Component {
                   </figcaption>
                 </figure>
 
-                <button className="btn-inline">Show all <span>&rarr;</span> </button>
+                <button className="btn-inline">
+                  Show all <span>&rarr;</span>{" "}
+                </button>
               </div>
+
             </div>
+              <div className="cta">
+                <h2 className="cta__book-now">
+                  Good news we have a room free!
+                </h2>
+              <button className="btn">
+                <span className="btn__visible">Book now!</span>
+                <span className="btn__invisible">Only 4 rooms left!</span>
+                </button>
+              </div>
           </main>
         </div>
       </div>

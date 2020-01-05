@@ -31,7 +31,7 @@ export default class App extends React.Component {
     return (
       <div className="container">
         <header className="header">
-          <images src={triangleLogo} alt="logo" className="logo" />
+          <img src={triangleLogo} alt="logo" className="logo" />
 
           <form action="#" className="search">
             <input

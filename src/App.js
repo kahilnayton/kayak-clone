@@ -8,11 +8,11 @@ import view1 from "./images/view1.jpeg";
 import view2 from "./images/view2.jpeg";
 import view3 from "./images/view3.jpeg";
 
-import user1 from './images/user1.jpeg'
-import user2 from './images/user2.jpeg'
-import user3 from './images/user3.jpeg'
-import user4 from './images/user4.jpeg'
-import user5 from './images/user5.jpeg'
+import user1 from "./images/user1.jpeg";
+import user2 from "./images/user2.jpeg";
+import user3 from "./images/user3.jpeg";
+import user4 from "./images/user4.jpeg";
+import user5 from "./images/user5.jpeg";
 
 import PlaneIcon from "./Icons/Airplane";
 import Bookmark from "./Icons/Bookmark";
@@ -164,7 +164,9 @@ export default class App extends React.Component {
                 </ul>
 
                 <div className="recommend">
-                  <p className="recommend__count"></p>
+                  <p className="recommend__count">
+                    Billy and 4 of his best mates think you should go travel.
+                  </p>
                   <div className="recommend__friends">
                     <img
                       src={user1}
@@ -186,16 +188,46 @@ export default class App extends React.Component {
                       alt="Recommend friend user2"
                       className="recommend__photo"
                     />
-                    <img
+                    {/* <img
                       src={user5}
                       alt="Recommend friend user5"
                       className="recommend__photo"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
 
-              <div className="user-reviews">user reviews</div>
+              <div className="user-reviews">
+                <figure className="review">
+                  <blockquote className="review__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim!
+                  </blockquote>
+                  <figcaption className="review__user">
+                    <img src={user1} alt="pic of user1" className="review__photo" />
+                    <div className="review__user-box">
+                      <p className="review__user-name">Nick Pat</p>
+                      <p className="review__user-date">Feb 10, 2019</p>
+                    </div>
+                    <div className="review__rating">6.4</div>
+                  </figcaption>
+                </figure>
+
+                <figure className="review">
+                  <blockquote className="review__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim!
+                  </blockquote>
+                  <figcaption className="review__user">
+                    <img src={user2} alt="pic of user1" className="review__photo" />
+                    <div className="review__user-box">
+                      <p className="review__user-name">Jane Dick</p>
+                      <p className="review__user-date">Nov 11, 2018</p>
+                    </div>
+                    <div className="review__rating">7.8</div>
+                  </figcaption>
+                </figure>
+
+                <button className="btn-inline">Show all <span>&rarr;</span> </button>
+              </div>
             </div>
           </main>
         </div>
